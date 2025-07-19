@@ -26,17 +26,21 @@ const statusData = [
 
 export default function OrderStatusCards() {
   return (
-    <div className="space-y-3 p-2 rounded-lg max-w-md mx-auto">
+    <div className="p-6 rounded-lg max-w-xl mx-auto flex flex-col gap-4
+      space-y-6 lg:space-y-0 lg:flex lg:space-x-6 lg:gap-4">
       {statusData.map((item, idx) => (
-        <div key={idx} className="flex items-start space-x-4">
+        <div key={idx} className="flex items-center  space-x-6 bg-white p-4 rounded-lg shadow-sm gap-4">
+          {/* Icon */}
           <div
-            className={`rounded-full p-3 ${item.bg} flex items-center justify-center`}
+            className={`rounded-full p-3 ${item.bg} flex items-center  justify-center`}
           >
             {item.icon}
           </div>
-          <div>
-            <p className="text-lg font-semibold">
-              <span className="text-black">{item.count}</span> {item.label}
+
+          {/* Text */}
+          <div className="flex flex-col">
+            <p className="text-lg font-semibold text-black">
+              {item.count} {item.label}
             </p>
             <p className="text-gray-500 text-sm">{item.subLabel}</p>
           </div>

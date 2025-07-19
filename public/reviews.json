@@ -1,56 +1,47 @@
 [
   {
     "id": 1,
-    "product": "Sony X85J 75 Inch Sony 4K Ultra HD LED Smart G...",
-    "customer": "Suzanne Martinez",
-    "rating": 3.5,
-    "review": "This theme is great. Clean and easy to understand...",
-    "status": "APPROVED",
-    "time": "Nov 03, 10:43 AM"
+    "productName": "Fitbit Sense Advanced Smartwatch with Tools for Health",
+    "productImage": "row1img.png",
+    "customerName": "Richard Dawkins",
+    "customerAvatar": "avator1.png",
+    "rating": 2,
+    "review": "This Fitbit is fantastic! I wanted to track my health and needed some motivation to switch to a new Fitbit."
   },
   {
     "id": 2,
-    "product": "Apple Magic Mouse (Wireless, Rechargeable) - Si...",
-    "customer": "Anthony Hopkins",
+    "productName": "Apple Watch Series 8",
+    "productImage": "row2img.png",
+    "customerName": "Sarah Connor",
+    "customerAvatar": "avator1.png",
     "rating": 4,
-    "review": "This template has allowed me to convert my existing...",
-    "status": "APPROVED",
-    "time": "Nov 06, 8:00 AM"
+    "review": "Great watch with lots of features, but battery life could be better."
   },
   {
     "id": 3,
-    "product": "Fitbit Sense Advanced Smartwatch with Tools fo...",
-    "customer": "Richard Dawkins",
-    "rating": 5,
-    "review": "This Fitbit is fantastic! I was trying to be in...",
-    "status": "APPROVED",
-    "time": "Just now"
+    "productName": "Fitbit Sense Advanced Smartwatch with Tools for Health",
+    "productImage": "row1img.png",
+    "customerName": "Richard Dawkins",
+    "customerAvatar": "avator1.png",
+    "rating": 2,
+    "review": "This Fitbit is fantastic! I wanted to track my health and needed some motivation to switch to a new Fitbit."
   },
   {
     "id": 4,
-    "product": "Echo Dot (4th Gen) _ Smart speaker with Alexa ...",
-    "customer": "Jennifer Schramm",
-    "rating": 4.5,
-    "review": "The theme is really beautiful and the support answer...",
-    "status": "PENDING",
-    "time": "Just now"
+    "productName": "Apple Watch Series 8",
+    "productImage": "row2img.png",
+    "customerName": "Sarah Connor",
+    "customerAvatar": "avator1.png",
+    "rating": 1,
+    "review": "Great watch with lots of features, but battery life could be better."
   },
   {
     "id": 5,
-    "product": "2021 Apple 12.9-inch iPad Pro (Wi-Fi, 128GB) ...",
-    "customer": "Ansolo Lazinato",
-    "rating": 4.5,
-    "review": "The response time and service I received when...",
-    "status": "PENDING",
-    "time": "Nov 07, 9:00 PM"
-  },
-  {
-    "id": 6,
-    "product": "iPhone 13 pro max-Pacific Blue-128GB storage",
-    "customer": "Ashley Garrett",
+    "productName": "Fitbit Sense Advanced Smartwatch with Tools for Health",
+    "productImage": "row1img.png",
+    "customerName": "Richard Dawkins",
+    "customerAvatar": "avator1.png",
     "rating": 3,
-    "review": "The order was delivered ahead of schedule...",
-    "status": "APPROVED",
-    "time": "Just now"
+    "review": "This Fitbit is fantastic! I wanted to track my health and needed some motivation to switch to a new Fitbit."
   }
 ]

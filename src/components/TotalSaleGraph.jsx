@@ -50,15 +50,21 @@ export default function TotalSaleGraph() {
 
   return (
     <>
-      <div className="px-4 py-2 flex flex-col gap-2">
-        <h1 className="text-lg font-bold">Total Sells</h1>
+      <div className="px-4 py-2 flex flex-col gap-2 ">
+        <div className="lg:flex lg:gap-4 lg:justify-between">
+          <div>
+            <h1 className="text-lg font-bold">Total Sells</h1>
         <p>Payment Recieved across All Channels</p>
+          </div>
+          
         <DateRangeDropdown />
+        </div>
+        
         <SaleGraph />
 
-        <div className="flex flex-wrap gap-4 w-80 lg:w-auto">
+        <div className="flex flex-wrap gap-4 w-80 lg:w-auto md:w-190">
           {/* Card 1 */}
-          <div className="w-full lg:w-[calc(50%-0.5rem)]">
+          <div className="w-full lg:w-[calc(50%-0.5rem)] md:w-[calc(50%-0.5rem)]">
             <OrdersCard
               title="Total orders"
               subtitle="16,247"
@@ -90,7 +96,7 @@ export default function TotalSaleGraph() {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full lg:w-[calc(50%-0.5rem)]">
+          <div className="w-full lg:w-[calc(50%-0.5rem)] md:w-[calc(50%-0.5rem)]">
             <OrdersCard
               title="New customers"
               subtitle="356"
@@ -116,7 +122,7 @@ export default function TotalSaleGraph() {
           </div>
 
           {/* Card 3 */}
-          <div className="w-full lg:w-[calc(50%-0.5rem)]">
+          <div className="w-full lg:w-[calc(50%-0.5rem)] md:w-[calc(50%-0.5rem)]">
             <OrdersCard
               title="Top coupons"
               subtitle="72%"
@@ -157,7 +163,7 @@ export default function TotalSaleGraph() {
           </div>
 
           {/* Card 4 */}
-          <div className="w-full lg:w-[calc(50%-0.5rem)]">
+          <div className="w-full lg:w-[calc(50%-0.5rem)] min-md:w-[calc(50%-0.5rem)]">
             <OrdersCard
               title="Paying vs Non-paying"
               subtitle="30%"

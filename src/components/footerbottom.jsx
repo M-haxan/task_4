@@ -3,7 +3,7 @@ import RevenueBarGradientChart from "./footerchart";
 export default function Bottom(){
     return(
         <>
-        <div className=" flex flex-col mt-4 gap-4 w-100">
+        <div className=" flex gap-2  w-full lg:pl-60 lg:pt-16">
             <RevenueBarGradientChart/>
             <RevenueBarGradientChart/>
         

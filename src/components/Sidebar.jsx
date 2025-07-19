@@ -1,41 +1,76 @@
-import React from 'react';
-import { Inbox, Mail } from '@mui/icons-material';
+import React from "react";
+import { FaRegClock } from "react-icons/fa";
+import SidebarMenuItem from "./SidebarMenuItem";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined';
+import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
 
-const Sidebar = () => {
-  const menuTop = ['Inbox', 'Starred', 'Send email', 'Drafts'];
-  const menuBottom = ['All mail', 'Trash', 'Spam', ''];
+const menuItems = [
+  {
+    title: "Home",
+    icon: <FaRegClock className="text-gray-500" />,
+    subMenu: [
+      { title: "E commerce", active: true },
+      { title: "Project management" },
+      { title: "CRM" },
+      { title: "Travel agency" },
+      { title: "Stock", badge: "NEW" },
+      { title: "Social feed" },
+    ],
+  },
+  {
+    title: "Ecomerce",
+    icon: <ShoppingCartIcon className="text-gray-500" />,
+    subMenu: [
+      
+      { title: "Add Product" },
+      { title: "Products" },
+      { title: "Customer" },
+      { title: "Customer Details" },
+      { title: "Orders" },
+      { title: "Order Details" },
+      { title: "Refund" },
+    ],
+  },
+  {
+    title: "CRM",
+    icon: <PhoneOutlinedIcon className="text-gray-500" />,
+    subMenu: [
+      
+      { title: "Add Product" },
+      { title: "Products" },
+      { title: "Customer" },
+      { title: "Customer Details" },
+      { title: "Orders" },
+      { title: "Order Details" },
+      { title: "Refund" },
+    ],
+  },
+  {
+    title: "Project Management",
+    icon: <AssignmentOutlinedIcon className="text-gray-500" />,
+    subMenu: [
+      
+      { title: "Add Product" },
+      { title: "Products" },
+      { title: "Customer" },
+      { title: "Customer Details" },
+      { title: "Orders" },
+      { title: "Order Details" },
+      { title: "Refund" },
+    ],
+  },
+  // Aap yahan aur menus add kar sakte ho
+];
 
+export default function Sidebar() {
   return (
-    <div className="hidden sm:flex fixed top-14 w-60 h-[calc(100vh-4rem)] flex-col bg-white shadow-md z-40">
-      <div className="flex-1 overflow-y-auto">
-        <ul className="p-2">
-          {menuTop.map((item, index) => (
-            <li key={item}>
-              <button className="flex items-center w-full p-2 hover:bg-gray-100 rounded-md">
-                <span className="mr-3">
-                  {index % 2 === 0 ? <Inbox fontSize="small" /> : <Mail fontSize="small" />}
-                </span>
-                <span>{item}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-        <hr className="my-2" />
-        <ul className="p-2">
-          {menuBottom.map((item, index) => (
-            <li key={item}>
-              <button className="flex items-center w-full p-2 hover:bg-gray-100 rounded-md">
-                <span className="mr-3">
-                  {index % 2 === 0 ? <Inbox fontSize="small" /> : <Mail fontSize="small" />}
-                </span>
-                <span>{item}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className="fixed top-15 h-full w-60 border border-[#E0E1E6] bg-white min-md:hidden max-sm:hidden">
+      <ul className="p-2 space-y-2">
+        {menuItems.map((item, index) => (
+          <SidebarMenuItem key={index} item={item} />
+        ))}
+      </ul>
     </div>
   );
-};
-
-export default Sidebar;
+}

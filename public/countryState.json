@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "country": "India 🇮🇳",
+    "country": "India",
+    "flag": "https://flagcdn.com/w20/in.png",
     "users": 92896,
     "userPercent": "41.6%",
     "transactions": 67,
     "transPercent": "34.3%",
-    "revenue": 7560,
-    "revPercent": "36.9%",
-    "conversionRate": "14.01%"
+    "revenue": "$7560",
+    "revPercent": "36.9%"
   },
   {
     "id": 2,
-    "country": "China 🇨🇳",
+    "country": "China",
+    "flag": "https://flagcdn.com/w20/cn.png",
     "users": 50496,
     "userPercent": "32.8%",
     "transactions": 54,
     "transPercent": "23.8%",
-    "revenue": 6532,
-    "revPercent": "26.5%",
-    "conversionRate": "23.56%"
+    "revenue": "$6532",
+    "revPercent": "26.5%"
   },
   {
     "id": 3,
-    "country": "USA 🇺🇸",
+    "country": "USA",
+    "flag": "https://flagcdn.com/w20/us.png",
     "users": 45679,
     "userPercent": "24.3%",
     "transactions": 35,
     "transPercent": "19.7%",
-    "revenue": 5432,
-    "revPercent": "16.9%",
-    "conversionRate": "10.23%"
+    "revenue": "$5432",
+    "revPercent": "16.9%"
   },
   {
     "id": 4,
-    "country": "South Korea 🇰🇷",
+    "country": "South Korea",
+    "flag": "https://flagcdn.com/w20/kr.png",
     "users": 36453,
     "userPercent": "19.7%",
     "transactions": 22,
     "transPercent": "9.54%",
-    "revenue": 4673,
-    "revPercent": "11.6%",
-    "conversionRate": "8.85%"
+    "revenue": "$4673",
+    "revPercent": "11.6%"
   },
   {
     "id": 5,
-    "country": "Vietnam 🇻🇳",
+    "country": "Vietnam",
+    "flag": "https://flagcdn.com/w20/vn.png",
     "users": 15007,
     "userPercent": "11.9%",
     "transactions": 17,
     "transPercent": "6.91%",
-    "revenue": 2456,
-    "revPercent": "10.2%",
-    "conversionRate": "6.01%"
+    "revenue": "$2456",
+    "revPercent": "10.2%"
   }
 ]
